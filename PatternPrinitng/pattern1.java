@@ -1,7 +1,15 @@
+package PatternPrinitng;
+/*
+****
+****
+****
+****
+ */
+
+
 import java.util.Scanner;
 
-public class pattern4 {
-
+public class pattern1 {
     public static void main(String args[]) {
         
         Scanner sc = new Scanner(System.in);
@@ -13,9 +21,9 @@ public class pattern4 {
         int c = sc.nextInt();
         
         // Loop through each row
-        for (int i = 1; i <=r; i++) {
+        for (int i = 1; i <= r; i++) {
             // Loop through each column
-            for (int j = r-1 ; j >=0; j--) {
+            for (int j = 1; j <= c; j++) {
                 System.out.print("*");
             }
             // Move to the next line after printing all columns for the current row
@@ -25,7 +33,4 @@ public class pattern4 {
         // Close the scanner
         sc.close();
     }
-    
 }
-    
-

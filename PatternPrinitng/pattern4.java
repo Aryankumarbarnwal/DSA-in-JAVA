@@ -1,6 +1,14 @@
+package PatternPrinitng;
+/*
+***
+***
+*** 
+*/
+
 import java.util.Scanner;
 
-public class pattern2{
+public class pattern4 {
+
     public static void main(String args[]) {
         
         Scanner sc = new Scanner(System.in);
@@ -12,15 +20,10 @@ public class pattern2{
         int c = sc.nextInt();
         
         // Loop through each row
-        for (int i = 1; i <= r; i++) {
+        for (int i = 1; i <=r; i++) {
             // Loop through each column
-            for (int j = 1; j <= c; j++) {
-                if(i==1 || i==r || j== 1 || j==c){
-                    System.out.print("*");
-                }
-                else{
-                    System.out.print(" ");
-                }
+            for (int j = r-1 ; j >=0; j--) {
+                System.out.print("*");
             }
             // Move to the next line after printing all columns for the current row
             System.out.println();
@@ -29,4 +32,7 @@ public class pattern2{
         // Close the scanner
         sc.close();
     }
+    
 }
+    
+

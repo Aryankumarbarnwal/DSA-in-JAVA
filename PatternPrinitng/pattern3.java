@@ -1,4 +1,11 @@
+package PatternPrinitng;
 // trinagle printing 
+/*
+****
+***
+**
+*
+ */
 
 import java.util.Scanner;
 
