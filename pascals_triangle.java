@@ -1,3 +1,6 @@
+// WAP to show a matrix spiral form
+
+
 import java.util.Scanner;
 
 public class pascals_triangle {
